@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto+Slab">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://kit.fontawesome.com/a4a2fc1b22.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header id="header">
+            <a href="https://en.wikipedia.org/wiki/Sweet_potato" target="_blank" rel="noreferrer"><img id="header-img" src="https://iili.io/LLkdu9.png"></a>
+            <nav id="nav-bar">
+                <ul> 
+                    <li><a class="nav-link" href="#Recipes">Recipes</a></li>
+                    <li><a class="nav-link" href="#FAQ">FAQ</a></li>
+                    <li><a class="nav-link" href="#video">Video</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="form-container">
+                <h1 id="Recipes">Best sweet potato recipes</h1>
+                <p id="subheading">Subscribe to our newsletter to receive only the tastiest sweet potato recipes!</p>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input id="email" type="email" name="email" required placeholder="Enter your email address">
+                    <div id="submit-button">
+                        <input id="submit" type="submit" value="GET RECIPES">
+                    </div>
+                </form>
+            </div>
+            <div id="video-info-container">
+                <div id="info-container">
+                    <h2 id="FAQ">Why eat sweet potatoes?</h2>
+                    <ul class="fa-ul">
+                        <li>
+                            <span class="fa-li">
+                                <i class="far fa-thumbs-up"></i>
+                            </span>
+                            <p id="list-item">Improved digestion</p>
+                        </li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-running"></i>
+                            </span>
+                            <p id="list-item">Increased energy</p>
+                        </li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <p id="list-item">Sharpened vision</p>
+                        </li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-heartbeat"></i>
+                            </span>
+                            <p id="list-item">Healthier immune system</p>
+                        </li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-swimmer"></i>
+                            </span>
+                            <p id="list-item">Heightened endurance</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="video-container">
+                    <iframe 
+                    width="560";
+                    height="315";
+                    id="video" 
+                    src="https://www.youtube.com/embed/bFoUKHwWChU" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    loading="lazy"  
+                    alt="6 Delicious Sweet Potato Recipes" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
